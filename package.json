@@ -1,0 +1,24 @@
+{
+  "name": "challenge-chart-plot",
+  "version": "1.0.0",
+  "description": "In this challenge, you will implement a web application that plots a line chart based on some manually input data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efsh/challenge-chart-plot.git"
+  },
+  "author": "Eduardo Henriques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efsh/challenge-chart-plot/issues"
+  },
+  "homepage": "https://github.com/efsh/challenge-chart-plot#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  }
+}
