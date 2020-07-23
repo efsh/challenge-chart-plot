@@ -24,23 +24,26 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <div className="input-data">
+            <div className="main">
+                <header>
+                    <h1>Eduardo's Challenge</h1>
+                </header>
+                <div className="data">
                     <textarea
                         onChange={this.handleChange}
                         value={this.state.value}
                         cols="30" 
-                        rows="10" />
+                        rows="10" 
+                        placeholder="Paste here your input..." />
+                    <p> chart under construction... </p>
                 </div>
-                <div className="chart">
-                    <p>-- chart -- </p>
-                </div>
-                <div className="execute">
-                <input
-                    type="button"
-                    value="GENERATE CHART"
-                    onClick={this.handleClick} />
-                </div>
+                <footer>
+                    <input
+                        className="button"
+                        type="button"
+                        value="GENERATE CHART"
+                        onClick={this.handleClick} />
+                </footer>
             </div>
         );
     }

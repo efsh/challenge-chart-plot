@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+	font: inherit;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1;
+}
+
+/* HTML5 display-role reset for older browsers */
+footer, header {
+	display: block;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 80px;
+    white-space: nowrap;
+}
+
+header {
+    background-color: #c1d0d6;
+    height: 80px;
+    padding-left: 12px;
+}
+
+textarea {
+    width: 100%;
+    background-color:#3a3942;
+    color: #fff;
+    padding: 12px;
+    resize: vertical;
+}
+
+.data p {
+    padding: 12px;
+    padding-bottom: 80px;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    font-size: 0.9em;
+}
+
+.button:hover {
+  background-color: #fff;
+  border: 1px solid #008CBA;
+  color: #008CBA;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #c1d0d6;
+    height: 80px;
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
